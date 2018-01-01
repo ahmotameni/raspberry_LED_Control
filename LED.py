@@ -40,7 +40,7 @@ class LED:
 
 led = LED()
 while True:
-    for j in range(1, 5):
+    for j in range(1, 6):
         for i in range(j, j + 6):
             led.turn_on(i)
             time.sleep(0.5)
